@@ -1,0 +1,6 @@
+.imagem-fundo{
+    background-image: url(../../itens_utilizados/images/images-paginas/fundo-livro-voando.png);
+    background-size: cover; /* Faz a imagem cobrir toda a área da div */
+    background-position: center; /* Centraliza a imagem */
+    filter: brightness(80%); /* Ajusta o brilho para 80% (20% menos brilho) */
+}
