@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+    background: linear-gradient(45deg, #ef6602, #551a8b);
     overflow: hidden;
 }
 
@@ -47,7 +47,7 @@ body {
 
 h2 {
     text-align: center;
-    color: #fff;
+    color: #551a8b;
     margin-bottom: 30px;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
