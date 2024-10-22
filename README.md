@@ -22,10 +22,10 @@ Poderá ter uma página para realização de desafios de leituras.
 | **Tarefa** | **Status** |
 |-----------------|------------|
 | 🌐 Escolher um tema (e-commerce, blogs, site de negócios) |✔️|
-| 🛠️ Desenvolver um site sobre o tema, com minimo 05 telas | |
-| 🛠️ Desenvolver o layout de cada tela, com minimo 05 telas |✔️|
-| 🛠️ Desenvolver o HTML de cada tela, com minimo 05 telas ||
-| 🛠️ Desenvolver o CSS de cada tela, com minimo 05 telas ||
+| 🛠️ Desenvolver um site sobre o tema, com minimo 05 telas |✔️|
+| 🛠️ Desenvolver o layout de cada tela|✔️|
+| 🛠️ Desenvolver o HTML de cada tela||
+| 🛠️ Desenvolver o CSS de cada tela||
 
 
 
