@@ -13,7 +13,7 @@ Poderá ter uma página para realização de desafios de leituras.
 ## NOME DO BLOG - BOOK SINCERO
 
 ## ENTREGA DA PRIMEIRA SPRINT 17/10 - layout das paginas 
-## ## ENTREGA DA SEGUNDA SPRINT 24/10 - html das paginas 
+## ENTREGA DA SEGUNDA SPRINT 24/10 - html das paginas 
 
 ---
 
