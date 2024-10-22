@@ -1,12 +1,21 @@
+/* Estilos gerais do body */
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Centraliza apenas o conteúdo do livro */
+.content-center {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
-    background: linear-gradient(45deg, #ef6602, #551a8b);
-    overflow: hidden;
+    flex-grow: 1;
 }
 
 .book {
@@ -97,23 +106,11 @@ button:hover {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
-.register-page {
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
+/* Estilo específico para o footer e header */
+#header, #footer {
+    width: 100%;
+    background-color: #fff; /* Cor de fundo, você pode ajustar */
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.book:hover .register-page {
-    transform: rotateY(0);
-}
-
-.book-page::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 60%);
-    transform: rotate(30deg);
-    pointer-events: none;
-}
