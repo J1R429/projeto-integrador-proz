@@ -1,8 +1,8 @@
-# Avaliação Sprints 02 e 03 - Grupo 01
+
 
 ![Banner](./src/images/)
 
-## PROJETO INTEGRADOR GRUPO 05 
+## PROJETO INTEGRADOR - PROZ - TURMA 35 - GRUPO 05 
 ### Desenvolvimento de um site com no minímo 05 pagínas 
 O tema escolhido é um blog de resenhas e opiniões sobre livros em geral.
 Ao final de cada texto haverá um link para compra do livro na Amazon e espaço para comentários.
@@ -13,6 +13,7 @@ Poderá ter uma página para realização de desafios de leituras.
 ## NOME DO BLOG - BOOK SINCERO
 
 ## ENTREGA DA PRIMEIRA SPRINT 17/10 - layout das paginas 
+## ## ENTREGA DA SEGUNDA SPRINT 24/10 - html das paginas 
 
 ---
 
@@ -22,7 +23,10 @@ Poderá ter uma página para realização de desafios de leituras.
 |-----------------|------------|
 | 🌐 Escolher um tema (e-commerce, blogs, site de negócios) |✔️|
 | 🛠️ Desenvolver um site sobre o tema, com minimo 05 telas | |
-| 🖥️ Criar o HTML e CSS  | |
+| 🛠️ Desenvolver o layout de cada tela, com minimo 05 telas |✔️|
+| 🛠️ Desenvolver o HTML de cada tela, com minimo 05 telas ||
+| 🛠️ Desenvolver o CSS de cada tela, com minimo 05 telas ||
+
 
 
 ---
@@ -37,7 +41,10 @@ Poderá ter uma página para realização de desafios de leituras.
 
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
+![CSS Badge](https://img.shields.io/badge/CSS-563d7c?&style=flat&logo=css3&logoColor=white)
 
+
+![DISCORD Badge](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)
 
 ---
 
@@ -52,6 +59,7 @@ Poderá ter uma página para realização de desafios de leituras.
 
 ### Referências 🛠️
 
+- W3SCHOOLS: https://www.w3schools.com/tags/default.asp
 
 ---
 
