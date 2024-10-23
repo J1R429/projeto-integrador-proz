@@ -106,11 +106,5 @@ button:hover {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilo específico para o footer e header */
-#header, #footer {
-    width: 100%;
-    background-color: #fff; /* Cor de fundo, você pode ajustar */
-    padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+
 
