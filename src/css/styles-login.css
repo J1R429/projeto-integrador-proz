@@ -34,15 +34,17 @@ body {
     padding: 40px;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.2);
-    transform-origin: left;
-    transition: transform 0.6s, background-color 0.6s;
+    transform-origin: left center;
+    
+    transition: transform 1s, background-color 1s;
     overflow: hidden;
     position: relative;
 }
 
 .login-page {
     border-right: 1px solid rgba(255, 255, 255, 0.3);
-}
+    
+}   
 
 .register-page {
     background-color: rgba(255, 255, 255, 0.1);
