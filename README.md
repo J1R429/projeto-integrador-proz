@@ -12,8 +12,9 @@ Poderá ter uma página para realização de desafios de leituras.
 
 ## NOME DO BLOG - BOOK SINCERO
 
-## ENTREGA DA PRIMEIRA SPRINT 17/10 - layout das paginas 
-## ENTREGA DA SEGUNDA SPRINT 24/10 - html das paginas 
+## ENTREGA DA PRIMEIRA SPRINT 17/10 - LAYOUT DAS PÁGINAS 
+## ENTREGA DA SEGUNDA SPRINT 24/10 - HTML DAS PÁGINAS
+## ENTREGA DA TERCEIRA SPRINT 26/11 - CSS
 
 ---
 
@@ -87,5 +88,11 @@ Poderá ter uma página para realização de desafios de leituras.
    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/142187378?v=4" width="100px;" alt=""/>
    <br />
    <sub><b style="color: yellow;">Pollyana</b></sub>
+</a>
+
+<a href="https://avatars.githubusercontent.com/u/142187378?v=4">
+   <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/142187378?v=4" width="100px;" alt=""/>
+   <br />
+   <sub><b style="color: yellow;">Priscila</b></sub>
 </a>
  

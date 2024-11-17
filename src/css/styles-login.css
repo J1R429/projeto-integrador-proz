@@ -1,13 +1,14 @@
 /* Estilos gerais do body */
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: lightblue;
-    height: 100vh;
+    /*padding: 10px;*/
+    /*margin: 5px;*/
+    background: #e8e8e8;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 /* Centraliza apenas o conteúdo do livro */
@@ -16,6 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-grow: 1;
+    min-height: 100vh;
 }
 
 .book {
@@ -27,38 +29,49 @@ body {
     perspective: 1500px;
     border-radius: 10px;
     backdrop-filter: blur(10px);
+    margin: auto;/*adicionado*/
+    
+    
 }
 
 .book-page {
     width: 50%;
     padding: 40px;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.2);
-    transform-origin: left center;
-    
-    transition: transform 1s, background-color 1s;
+    background-color: #597cff;
+    transform-origin: left;
+    transition: transform 0.6s, background-color 0.6s;
     overflow: hidden;
     position: relative;
+    justify-content: center;
+    
 }
 
 .login-page {
     border-right: 1px solid rgba(255, 255, 255, 0.3);
-    
-}   
+    justify-content: center;
+}
 
 .register-page {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #597cff;
     transform: rotateY(0deg);
+    justify-content: center;
 }
+
+
+
 
 .book:hover .register-page {
     transform: rotateY(-180deg);
     background-color: rgba(255, 255, 255, 0.3);
 }
+h1{
+    font-weight: 400px;
+}
 
 h2 {
     text-align: center;
-    color: #551a8b;
+    color: #ef6602;
     margin-bottom: 30px;
     font-weight: 600;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
@@ -107,6 +120,10 @@ button:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
+
+
+
+
 
 
 
