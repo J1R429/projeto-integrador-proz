@@ -11,112 +11,118 @@
 
         <script src="../js/loadFooter.js" defer></script>
         <script src="../js/loadHeader.js" defer></script>
+        <script src="../js/desafios.js" defer></script>
 
     </head>
     <body>
         <div id="header"></div>     
 
         <main>
-            
+            <h1>DESAFIOS DE LEITURAS DO SEMESTRE</h1>
+            <h3>São 06 meses para você completar algum desafio, realizar a prova pelo acompanhamento de leitura do aplicativo Skoob e ganhar o cupom de desconto da Amazon</h3>
+
             <div class="imagem-fundo">
-                <h1>DESAFIOS DE LEITURAS DO SEMESTRE</h1>
-                <h3>São 06 meses para você completar algum desafio, realizar a prova pelo acompanhamento de leitura do aplicativo Skoob e ganhar o cupom de desconto da Amazon</h3>
-
-                <ul class="desafios-lista">
-                    <li><a href="../../itens_utilizados/pdfs-desafios/desafio-variado.pdf" target="_blank">DESAFIO ASSUNTOS VARIADOS</a></li>
-                    <li><a href="../../itens_utilizados/pdfs-desafios/desafio-notas.pdf" target="_blank">DESAFIO MAIORES NOTAS EM 2022</a></li>
-                    <li><a href="../../itens_utilizados/pdfs-desafios/desafio-paises.pdf" target="_blank">DESAFIO PAÍSES DIFERENTES</a></li>
-                    <li><a href="../../itens_utilizados/pdfs-desafios/desafio-epoca.pdf" target="_blank">DESAFIO LIVROS DE ÉPOCA</a></li>
-                </ul>
-
-
+                <div class="conteudo">
+                    <img src="../../itens_utilizados/images/images-paginas/pilha-livros-1.png" class="imagem-desafios">
+                    <ul class="desafios-lista">                    
+                        <li><a href="../../itens_utilizados/pdfs-desafios/desafio-variado.pdf" target="_blank">DESAFIO ASSUNTOS <br>VARIADOS</a></li>
+                        <li><a href="../../itens_utilizados/pdfs-desafios/desafio-notas.pdf" target="_blank">DESAFIO MAIORES <br> NOTAS EM 2022</a></li>
+                        <li><a href="../../itens_utilizados/pdfs-desafios/desafio-paises.pdf" target="_blank">DESAFIO PAÍSES <br> DIFERENTES</a></li>
+                        <li><a href="../../itens_utilizados/pdfs-desafios/desafio-epoca.pdf" target="_blank">DESAFIO LIVROS <br> DE ÉPOCA</a></li>
+                    </ul>
+                </div>
+            </div>
                 <p>Terminou algum desafio ?</p>
                 <p>Envie o nome do desafio e o nome do seu perfil no <a href="https://www.skoob.com.br/" target="_blank"> Skoob</a></p>
                 <p>se estiver tudo certo você receberá um cupom de 30% de desconto* em compras de livros na Amazon.</p>
                 <p>* desconto não acumulativo</p>
                 <a href="mailto:someone@example.com">Enviar e-mail</a>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <h2>QUIZ: Que tipo de leitor você é?</h2>
+                <form id="quizForm">
+                    <fieldset>
+                        <legend>1. Como você escolhe um livro pra ler?</legend>
+                        <canvas id="canvas1" width="200" height="100"></canvas><br>
+                        <input type="radio" id="opcaoA1" name="pergunta1" value="a">
+                        <label for="opcaoA1">a) Pela capa, obviamente. Se não tem dragão ou romance, nem olho.</label><br>
+                        <input type="radio" id="opcaoB1" name="pergunta1" value="b">
+                        <label for="opcaoB1">b) Procuro uma lista de “Livros que você precisa ler antes de morrer” e ignoro.</label><br>
+                        <input type="radio" id="opcaoC1" name="pergunta1" value="c">
+                        <label for="opcaoC1">c) Vou na livraria e escolho o mais pesado. Preciso de algo para malhar.</label><br>
+                        <input type="radio" id="opcaoD1" name="pergunta1" value="d">
+                        <label for="opcaoD1">d) Pergunto para amigos, mas depois ignoro as sugestões e releio Harry Potter.</label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>2. Você está lendo um clássico, e ele começa com a frase: “Era uma vez...” O que você pensa?</legend>
+                        <canvas id="canvas2" width="200" height="100"></canvas><br>
+                        <input type="radio" id="opcaoA2" name="pergunta2" value="a">
+                        <label for="opcaoA2">a) Finalmente algo que eu entendo!</label><br>
+                        <input type="radio" id="opcaoB2" name="pergunta2" value="b">
+                        <label for="opcaoB2">b) “Era uma vez”... meu tempo livre.</label><br>
+                        <input type="radio" id="opcaoC2" name="pergunta2" value="c">
+                        <label for="opcaoC2">c) Não importa, eu vou ler até o fim porque sou culta.</label><br>
+                        <input type="radio" id="opcaoD2" name="pergunta2" value="d">
+                        <label for="opcaoD2">d) Clássico ou não, eu só quero saber se tem final feliz!</label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>3. Qual o seu maior pesadelo literário?</legend>
+                        <canvas id="canvas3" width="200" height="100"></canvas><br>
+                        <input type="radio" id="opcaoA3" name="pergunta3" value="a">
+                        <label for="opcaoA3">a) Alguém dobrando as páginas do meu livro para marcar onde parou.</label><br>
+                        <input type="radio" id="opcaoB3" name="pergunta3" value="b">
+                        <label for="opcaoB3">b) Spoiler do final – ninguém merece saber que o vilão é o mordomo.</label><br>
+                        <input type="radio" id="opcaoC3" name="pergunta3" value="c">
+                        <label for="opcaoC3">c) Ser forçado a ler autoajuda com títulos como “Sorria enquanto tudo dá errado”.</label><br>
+                        <input type="radio" id="opcaoD3" name="pergunta3" value="d">
+                        <label for="opcaoD3">d) Esquecer o livro no ônibus e nunca mais vê-lo.</label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>4. Onde você lê?</legend>
+                        <canvas id="canvas4" width="200" height="100"></canvas><br>
+                        <input type="radio" id="opcaoA4" name="pergunta4" value="a">
+                        <label for="opcaoA4">a) Na cama. É onde finjo que vou terminar o livro e acabo dormindo.</label><br>
+                        <input type="radio" id="opcaoB4" name="pergunta4" value="b">
+                        <label for="opcaoB4">b) Em qualquer lugar, desde que não tenha gente me interrompendo.</label><br>
+                        <input type="radio" id="opcaoC4" name="pergunta4" value="c">
+                        <label for="opcaoC4">c) Em cafés. Porque aesthetic.</label><br>
+                        <input type="radio" id="opcaoD4" name="pergunta4" value="d">
+                        <label for="opcaoD4">d) No banheiro. Porque é o único momento de paz.</label>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>5. Qual seu lema de vida como leitor?</legend>
+                        <canvas id="canvas5" width="200" height="100"></canvas><br>
+                        <input type="radio" id="opcaoA5" name="pergunta5" value="a">
+                        <label for="opcaoA5">a) Um livro por vez. Não sou uma série da Netflix.</label><br>
+                        <input type="radio" id="opcaoB5" name="pergunta5" value="b">
+                        <label for="opcaoB5">b) Compro mais livros do que posso ler – mas eles ficam lindos na estante.</label><br>
+                        <input type="radio" id="opcaoC5" name="pergunta5" value="c">
+                        <label for="opcaoC5">c) Livros emprestados são como ex-namorados: difíceis de devolver.</label><br>
+                        <input type="radio" id="opcaoD5" name="pergunta5" value="d">
+                        <label for="opcaoD5">d) Ler? Prefiro o filme.</label>
+                    </fieldset>
+                    
+                    <button type="submit">Enviar</button>
+                </form>
+
+
+            <div id="resultModal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <h2>Resultado</h2>
+                    <img id="modalImage" class="modal-image" />
+                    <p id="modalText"></p>
+                </div>
             </div>
 
-            <h2>QUIZ: Que tipo de leitor você é?</h2>    
-            <form action="" target="_parent" method="get">
-                <p>1. Como você escolhe um livro pra ler?</p>
-                <canvas id="myCanvas" width="200" height="100"></canvas><br>
-                <input type="checkbox" id="opcaoA" name="opcaoA" value="opcaoA">
-                <label for="opcaoA"> a) Pela capa, obviamente. Se não tem dragão ou romance, nem olho.</label><br>
-                <input type="checkbox" id="opcaoB" name="opcaoB" value="opcaoB">
-                <label for="opcaoB"> b) Procuro uma lista de “Livros que você precisa ler antes de morrer” e ignoro.</label><br>
-                <input type="checkbox" id="opcaoC" name="opcaoC" value="opcaoC">
-                <label for="opcaoC"> c) Vou na livraria e escolho o mais pesado. Preciso de algo para malhar.</label><br>
-                <input type="checkbox" id="opcaoD" name="opcaoD" value="opcaoD">
-                <label for="opcaoD"> d) Pergunto para amigos, mas depois ignoro as sugestões e releio Harry Potter.</label><br>
-
-                <p>2. Você está lendo um clássico, e ele começa com a frase: “Era uma vez...” O que você pensa?</p>
-                <canvas id="myCanvas" width="200" height="100"></canvas><br>
-                <input type="checkbox" id="opcaoA" name="opcaoA" value="opcaoA">
-                <label for="opcaoA"> a) Finalmente algo que eu entendo!</label><br>
-                <input type="checkbox" id="opcaoB" name="opcaoB" value="opcaoB">
-                <label for="opcaoB"> b) “Era uma vez”... meu tempo livre.</label><br>
-                <input type="checkbox" id="opcaoC" name="opcaoC" value="opcaoC">
-                <label for="opcaoC"> c) Não importa, eu vou ler até o fim porque sou culta.</label><br>
-                <input type="checkbox" id="opcaoD" name="opcaoD" value="opcaoD">
-                <label for="opcaoD"> d) Clássico ou não, eu só quero saber se tem final feliz!</label><br>
-
-                <p>3. Qual o seu maior pesadelo literário?</p>
-                <canvas id="myCanvas" width="200" height="100"></canvas><br>
-                <input type="checkbox" id="opcaoA" name="opcaoA" value="opcaoA">
-                <label for="opcaoA"> a) Alguém dobrando as páginas do meu livro para marcar onde parou.</label><br>
-                <input type="checkbox" id="opcaoB" name="opcaoB" value="opcaoB">
-                <label for="opcaoB"> b) Spoiler do final – ninguém merece saber que o vilão é o mordomo.</label><br>
-                <input type="checkbox" id="opcaoC" name="opcaoC" value="opcaoC">
-                <label for="opcaoC"> c) Ser forçado a ler autoajuda com títulos como “Sorria enquanto tudo dá errado”.</label><br>
-                <input type="checkbox" id="opcaoD" name="opcaoD" value="opcaoD">
-                <label for="opcaoD"> d) Esquecer o livro no ônibus e nunca mais vê-lo.</label><br>
-
-                <p>4. Onde você lê?</p>
-                <canvas id="myCanvas" width="200" height="100"></canvas><br>
-                <input type="checkbox" id="opcaoA" name="opcaoA" value="opcaoA">
-                <label for="opcaoA"> a) Na cama. É onde finjo que vou terminar o livro e acabo dormindo.</label><br>
-                <input type="checkbox" id="opcaoB" name="opcaoB" value="opcaoB">
-                <label for="opcaoB"> b) Em qualquer lugar, desde que não tenha gente me interrompendo.</label><br>
-                <input type="checkbox" id="opcaoC" name="opcaoC" value="opcaoC">
-                <label for="opcaoC"> c) Em cafés. Porque aesthetic.</label><br>
-                <input type="checkbox" id="opcaoD" name="opcaoD" value="opcaoD">
-                <label for="opcaoD"> d) No banheiro. Porque é o único momento de paz.</label><br>
-
-                <p>5. Qual seu lema de vida como leitor?</p>
-                <canvas id="myCanvas" width="200" height="100"></canvas><br>
-                <input type="checkbox" id="opcaoA" name="opcaoA" value="opcaoA">
-                <label for="opcaoA"> a) Um livro por vez. Não sou uma série da Netflix.</label><br>
-                <input type="checkbox" id="opcaoB" name="opcaoB" value="opcaoB">
-                <label for="opcaoB"> b) Compro mais livros do que posso ler – mas eles ficam lindos na estante.</label><br>
-                <input type="checkbox" id="opcaoC" name="opcaoC" value="opcaoC">
-                <label for="opcaoC"> c) Livros emprestados são como ex-namorados: difíceis de devolver.</label><br>
-                <input type="checkbox" id="opcaoD" name="opcaoD" value="opcaoD">
-                <label for="opcaoD"> d) Ler? Prefiro o filme.</label><br>
-
-                <input type="submit" value="Submit">
-            </form>
-
-            Resultados: Que tipo de leitor você é?
-Maioria A: Leitor Visual
-Você ama o lado estético dos livros. É atraído por capas chamativas e adora empilhar obras para tirar fotos que vão direto para o Instagram. Ler? Só se for bonito!
-
-Recomendação de livro: “Os Sete Maridos de Evelyn Hugo” de Taylor Jenkins Reid. Uma capa linda e uma história cheia de glamour – perfeita para combinar com sua vibe fotogênica!
-
-Maioria B: Leitor Procrastinador
-Você gosta de livros, mas sempre acha um jeito de evitar ler. Tem pilhas de TBR (to be read) acumuladas e adora fingir que um dia vai colocá-las em dia.
-
-Recomendação de livro: “O Homem Mais Rico da Babilônia” de George S. Clason. Curtinho, direto ao ponto e cheio de lições práticas – fácil de terminar sem procrastinar demais.
-
-Maioria C: Leitor Cult
-Você lê para ostentar. Quanto mais difícil o livro, melhor. Ama usar palavras difíceis como “dostoiévskiano” só para ver a cara de confusão dos outros.
-
-Recomendação de livro: “Crime e Castigo” de Fiódor Dostoiévski. Um clássico pesado para exibir na prateleira e, quem sabe, até ler.
-
-Maioria D: Leitor Casual
-Você lê porque é divertido, mas também gosta de um bom cochilo durante a leitura. Para você, livros são uma boa desculpa para fugir do mundo – ou do Wi-Fi.
-
-Recomendação de livro: “O Guia do Mochileiro das Galáxias” de Douglas Adams. Engraçado, leve, e tão absurdo que nem dá tempo de pensar em cochilar.
         </main>
 
         
