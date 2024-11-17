@@ -1,6 +1,120 @@
+#titulo-pagina{
+    text-align: center;
+    color: #ef6602;
+    text-decoration: underline;
+}
+
 .imagem-fundo2{
     background-image: url(../../itens_utilizados/images/images-paginas/fundo-estante.png);
     background-size: cover; /* Faz a imagem cobrir toda a área da div */
-    background-position: center; /* Centraliza a imagem */
+    background-position: left center; /* Centraliza a imagem */
     filter: brightness(80%); /* Ajusta o brilho para 80% (20% menos brilho) */
+    position: absolute; /* Mantém a imagem atrás do conteúdo */
+    width: 90%;
+    height: 80%;
+    left: 5%; /* Move a imagem para a esquerda */
 }
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 750px; /* Definindo uma altura fixa para o carrossel */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+
+.carousel-item {
+    min-width: 100%;
+    height: 100%; /* Garante que cada item ocupe toda a altura do container */
+    position: relative;
+    display: flex;
+    display:flex;    
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a imagem cobrir toda a área sem distorcer */
+    object-position: left; /* Imagem alinhada à esquerda */
+    margin-left: 100px; /* Adiciona espaço à esquerda da imagem */
+}
+
+.carousel-text {
+    position: absolute;
+    top: 45%; /*topo do texto*/
+    left: 45%;
+    transform: translateY(-50%); /* Centraliza o texto verticalmente */
+    color: black;
+    background-color: white; /* Fundo transparente com opacidade */
+    padding: 25px;
+    border-radius: 20px;
+    width: 50%; /* O texto ocupará % da largura total */
+    box-sizing: border-box;
+}
+
+
+.carousel-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ef6602;
+    text-align: center;
+}
+
+.carousel-text p {
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.carousel-text a {
+    color: black;
+    text-decoration: underline;
+}
+
+/* Fundo leitoso entre a imagem e os itens do carrossel */
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Fundo leitoso */
+}
+
+/* Setas de navegação */
+.carousel-arrow {
+    position: absolute;
+    bottom: 10px; /* As setas ficam na parte inferior do carrossel */
+    top: 90%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 2; /* Garante que as setas fiquem por cima */
+}
+
+.carousel-arrow-left {
+    left: 30px;
+}
+
+.carousel-arrow-right {
+    right: 30px;
+}
+
+/* Estilo para as imagens das setas */
+.carousel-arrow img {
+    width: 100px; /* Ajuste o tamanho das setas */
+    height: 100px;
+    right: 90%;
+}
+
+  
+  

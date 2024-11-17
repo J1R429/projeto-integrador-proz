@@ -35,7 +35,7 @@
 
 /* Estilo para cada item da lista dentro de .desafios-lista */
 .desafios-lista li {
-    background-color: #e8e8e8; /* Fundo bege */
+    background-color: #e8e8e871 !important; /* Fundo bege */
     border: 2px solid #ef6602; /* Borda laranja */
     border-radius: 8px; /* Bordas arredondadas */
     padding: 15px;
@@ -51,7 +51,6 @@
 
 /* Efeito de hover para cada item da lista */
 .desafios-lista li:hover {
-    background-color: #fff3cd; /* Muda o fundo para um tom mais claro de bege */
     transform: scale(1.05); /* Aumenta um pouco o tamanho no hover */
     cursor: pointer; /* Indica que o item é clicável */
 }
@@ -89,3 +88,19 @@
     right: 25px;
     cursor: pointer;
 }
+
+utton {
+    background-color: white; /* Fundo branco */
+    color: #ef6602; /* Cor do texto laranja */
+    border: 2px solid #ef6602; /* Borda laranja */
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mão ao passar por cima */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+  }
+  
+  button:hover {
+    background-color: #ef6602; /* Fundo laranja ao passar o mouse */
+    color: white; /* Texto branco */
+  }
