@@ -1,62 +1,90 @@
-.imagem-fundo{
+.imagem-fundo {
     background-image: url(../../itens_utilizados/images/images-paginas/fundo-livro-voando.png);
-    background-size: cover; /* Faz a imagem cobrir toda a área da div */
-    background-position: center; /* Centraliza a imagem */
-    filter: brightness(70%); /* Ajusta o brilho para 70% (30% menos brilho) */
+    background-size: cover;
+    /* Faz a imagem cobrir toda a área da div */
+    background-position: center;
+    /* Centraliza a imagem */
+    filter: brightness(70%);
+    /* Ajusta o brilho para 70% (30% menos brilho) */
 }
 
 /* Estilo geral para o contêiner da imagem e lista */
 .conteudo {
-    display: flex; /* Torna a estrutura flexível */
-    align-items: flex-start; /* Alinha a imagem e a lista no topo */
-    justify-content: flex-start; /* Alinha ambos no início (esquerda) */
-    gap: 20px; /* Espaço entre a imagem e a lista */
-    margin: 20px; /* Margem para dar um pouco de espaço em torno do conteúdo */
+    display: flex;
+    /* Torna a estrutura flexível */
+    align-items: flex-start;
+    /* Alinha a imagem e a lista no topo */
+    justify-content: flex-start;
+    /* Alinha ambos no início (esquerda) */
+    gap: 20px;
+    /* Espaço entre a imagem e a lista */
+    margin: 20px;
+    /* Margem para dar um pouco de espaço em torno do conteúdo */
 }
 
 /* Estilo para a imagem dos desafios */
 .imagem-desafios {
-    width: 50%; /* Ajuste a largura da imagem como uma porcentagem da tela */
-    height: auto; /* Mantém a proporção da imagem */
-    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorção */
+    width: 50%;
+    /* Ajuste a largura da imagem como uma porcentagem da tela */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    object-fit: cover;
+    /* Garante que a imagem cubra o espaço sem distorção */
 }
-
 
 /* Estilo para a lista de desafios */
 .desafios-lista {
     display: grid;
-    grid-template-columns: 1fr; /* Exibe como uma única coluna */
-    gap: 20px; /* Espaçamento entre os itens */
-    list-style: none; /* Remove o marcador da lista */
-    padding-left: 0; /* Remove o padding esquerdo da lista */
-    margin: 0 auto; /* Centraliza a lista */
-    max-width: 80%; /* Limita a largura máxima da lista */
+    grid-template-columns: 1fr;
+    /* Exibe como uma única coluna */
+    gap: 20px;
+    /* Espaçamento entre os itens */
+    list-style: none;
+    /* Remove o marcador da lista */
+    padding-left: 0;
+    /* Remove o padding esquerdo da lista */
+    margin: 0 auto;
+    /* Centraliza a lista */
+    max-width: 80%;
+    /* Limita a largura máxima da lista */
 }
 
 /* Estilo para cada item da lista dentro de .desafios-lista */
 .desafios-lista li {
-    background-color: #e8e8e871 !important; /* Fundo bege */
-    border: 2px solid #ef6602; /* Borda laranja */
-    border-radius: 8px; /* Bordas arredondadas */
+    background-color: #e8e8e871 !important;
+    /* Fundo bege */
+    border: 2px solid #ef6602;
+    /* Borda laranja */
+    border-radius: 8px;
+    /* Bordas arredondadas */
     padding: 15px;
-    text-align: center; /* Alinha o texto à direita */
+    text-align: center;
+    /* Alinha o texto à direita */
     font-size: 1.2em;
     font-weight: bold;
-    color: #597cff; /* Cor do texto azul */
-    transition: background-color 0.3s, transform 0.3s; /* Efeitos de transição */
-    width: 60%; /* Ajusta a largura do item (menor do que o valor 100%) */
-    max-width: 300px; /* Limita a largura máxima de cada item */
-    justify-self: end; /* Alinha os itens à direita dentro da célula do grid */
+    color: #597cff;
+    /* Cor do texto azul */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Efeitos de transição */
+    width: 60%;
+    /* Ajusta a largura do item (menor do que o valor 100%) */
+    max-width: 300px;
+    /* Limita a largura máxima de cada item */
+    justify-self: end;
+    /* Alinha os itens à direita dentro da célula do grid */
 }
 
 /* Efeito de hover para cada item da lista */
 .desafios-lista li:hover {
-    transform: scale(1.05); /* Aumenta um pouco o tamanho no hover */
-    cursor: pointer; /* Indica que o item é clicável */
+    transform: scale(1.05);
+    /* Aumenta um pouco o tamanho no hover */
+    cursor: pointer;
+    /* Indica que o item é clicável */
 }
 
 .quiz-image {
-    width: 150px; /* Ajuste para o tamanho que você quiser */
+    width: 150px;
+    /* Ajuste para o tamanho que você quiser */
     display: block;
     margin: auto;
 }
@@ -69,7 +97,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
@@ -89,18 +117,28 @@
     cursor: pointer;
 }
 
-utton {
-    background-color: white; /* Fundo branco */
-    color: #ef6602; /* Cor do texto laranja */
-    border: 2px solid #ef6602; /* Borda laranja */
-    border-radius: 5px; /* Bordas levemente arredondadas */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Cursor de mão ao passar por cima */
-    transition: background-color 0.3s, color 0.3s; /* Transição suave */
-  }
-  
-  button:hover {
-    background-color: #ef6602; /* Fundo laranja ao passar o mouse */
-    color: white; /* Texto branco */
-  }
+button {
+    background-color: white;
+    /* Fundo branco */
+    color: #ef6602;
+    /* Cor do texto laranja */
+    border: 2px solid #ef6602;
+    /* Borda laranja */
+    border-radius: 5px;
+    /* Bordas levemente arredondadas */
+    padding: 10px 20px;
+    /* Espaçamento interno */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Cursor de mão ao passar por cima */
+    transition: background-color 0.3s, color 0.3s;
+    /* Transição suave */
+}
+
+button:hover {
+    background-color: #ef6602;
+    /* Fundo laranja ao passar o mouse */
+    color: white;
+    /* Texto branco */
+}

@@ -1,34 +1,46 @@
 /* Estilo geral */
 body {
-    background-color: #e8e8e8; /* Cor de fundo da página */
-    margin: 0; /* Remove as margens padrão */
-    padding: 0; /* Remove o padding padrão */
-    border: 0px solid #ccc; /* Adiciona uma borda ao redor de toda a página */
-    max-width: 1200px; /* Limita a largura máxima da página */
-    margin: 0 auto; /* Centraliza a página na tela */
-    box-sizing: border-box; /* Inclui a borda e o padding no cálculo da largura/altura */
+    background-color: #e8e8e8;
+    /* Cor de fundo da página */
+    margin: 0;
+    /* Remove as margens padrão */
+    padding: 0;
+    /* Remove o padding padrão */
+    border: 0px solid #ccc;
+    /* Adiciona uma borda ao redor de toda a página */
+    max-width: 1200px;
+    /* Limita a largura máxima da página */
+    margin: 0 auto;
+    /* Centraliza a página na tela */
+    box-sizing: border-box;
+    /* Inclui a borda e o padding no cálculo da largura/altura */
 }
 
 /* Ajustes para o conteúdo da página */
 main {
-    padding: 20px; /* Espaçamento interno para o conteúdo */
+    padding: 20px;
+    /* Espaçamento interno para o conteúdo */
 }
 
 /* Responsividade: ajusta o layout em telas pequenas */
 @media (max-width: 768px) {
     body {
-        border: 3px solid #bbb; /* Borda um pouco mais fina em telas pequenas */
-        padding: 10px; /* Menos padding */
+        border: 3px solid #bbb;
+        /* Borda um pouco mais fina em telas pequenas */
+        padding: 10px;
+        /* Menos padding */
     }
 
     /* Ajusta o tamanho do texto */
     h1 {
-        font-size: 1.5em; /* Menor tamanho de título em telas pequenas */
+        font-size: 1.5em;
+        /* Menor tamanho de título em telas pequenas */
     }
 
     /* Ajusta o layout dos itens (exemplo para lista) */
     main ul {
-        grid-template-columns: 1fr; /* Exibe os itens em uma coluna em telas pequenas */
+        grid-template-columns: 1fr;
+        /* Exibe os itens em uma coluna em telas pequenas */
     }
 
     /* Outros ajustes de responsividade podem ser feitos aqui */
@@ -37,10 +49,12 @@ main {
 /* Responsividade para telas maiores (exemplo: para telas de tablets) */
 @media (max-width: 1024px) {
     body {
-        border: 4px solid #bbb; /* Borda mais fina que a original */
+        border: 4px solid #bbb;
+        /* Borda mais fina que a original */
     }
 
     main ul {
-        grid-template-columns: repeat(2, 1fr); /* Exibe os itens em duas colunas */
+        grid-template-columns: repeat(2, 1fr);
+        /* Exibe os itens em duas colunas */
     }
 }

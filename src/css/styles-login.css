@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
 
 /* Centraliza apenas o conteúdo do livro */
@@ -29,9 +28,8 @@ body {
     perspective: 1500px;
     border-radius: 10px;
     backdrop-filter: blur(10px);
-    margin: auto;/*adicionado*/
-    
-    
+    margin: auto;
+    /*adicionado*/
 }
 
 .book-page {
@@ -44,7 +42,6 @@ body {
     overflow: hidden;
     position: relative;
     justify-content: center;
-    
 }
 
 .login-page {
@@ -58,14 +55,12 @@ body {
     justify-content: center;
 }
 
-
-
-
 .book:hover .register-page {
     transform: rotateY(-180deg);
     background-color: rgba(255, 255, 255, 0.3);
 }
-h1{
+
+h1 {
     font-weight: 400px;
 }
 
@@ -120,10 +115,3 @@ button:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
-
-
-
