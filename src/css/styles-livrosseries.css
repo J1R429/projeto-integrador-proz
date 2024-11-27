@@ -4,9 +4,19 @@
 
 .section_center {
     text-align: center;
+    background-color: #F08080;
+    padding: 50px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px 7px #c3c3c3;
 }
 
 .ul_ol_list_center {
     width: fit-content;
     margin: auto;
+}
+
+.title {
+    font-style: italic; 
+    text-decoration: underline;
 }
