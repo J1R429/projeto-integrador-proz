@@ -142,3 +142,16 @@ button:hover {
     color: white;
     /* Texto branco */
 }
+
+.title_desafio {
+    text-align: center;
+}
+
+.title_2 {
+    text-align: center;
+}
+
+.quiz_desafio {
+    text-align: center;
+    text-decoration: underline;
+}
