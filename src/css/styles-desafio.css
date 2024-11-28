@@ -1,3 +1,13 @@
+#titulo-pagina {
+    text-align: center;
+    color: #ef6602;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center; 
+}
+
 .imagem-fundo {
     background-image: url(../../itens_utilizados/images/images-paginas/fundo-livro-voando.png);
     background-size: cover;
@@ -51,7 +61,7 @@
 
 /* Estilo para cada item da lista dentro de .desafios-lista */
 .desafios-lista li {
-    background-color: #e8e8e871 !important;
+    background-color: rgba(255, 255, 255, 0.589) !important;
     /* Fundo bege */
     border: 2px solid #ef6602;
     /* Borda laranja */
@@ -143,12 +153,9 @@ button:hover {
     /* Texto branco */
 }
 
-.title_desafio {
-    text-align: center;
-}
 
 .title_2 {
-    text-align: center;
+    text-align: left;
 }
 
 .quiz_desafio {
