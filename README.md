@@ -72,7 +72,7 @@ Poderá ter uma página para realização de desafios de leituras.
    <sub><b style="color: yellow;">Jessica Fernandes</b></sub>
 </a>
 
-<br>
+<br><br>
 
 <a href="https://avatars.githubusercontent.com/u/155182122?v=4">
    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/155182122?v=4" width="100px;" alt=""/>
@@ -80,7 +80,7 @@ Poderá ter uma página para realização de desafios de leituras.
    <sub><b style="color: yellow;">Fabrício</b></sub>
 </a>
 
-<br>
+<br><br>
 
 <a href="https://avatars.githubusercontent.com/u/110235309?v=4">
    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/110235309?v=4" width="100px;" alt=""/>
@@ -88,7 +88,7 @@ Poderá ter uma página para realização de desafios de leituras.
    <sub><b style="color: yellow;">Sueli</b></sub>
 </a>
 
-<br>
+<br><br>
 
 <a href="https://avatars.githubusercontent.com/u/142187378?v=4">
    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/142187378?v=4" width="100px;" alt=""/>
@@ -96,7 +96,7 @@ Poderá ter uma página para realização de desafios de leituras.
    <sub><b style="color: yellow;">Pollyana</b></sub>
 </a>
 
-<br>
+<br><br>
 
 <a href="https://github.com/priscilaregsilva">
    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/111193327?v=4" width="100px;" alt=""/>
