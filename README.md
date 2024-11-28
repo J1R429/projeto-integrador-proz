@@ -15,6 +15,7 @@ Poderá ter uma página para realização de desafios de leituras.
 ## ENTREGA DA PRIMEIRA SPRINT 17/10 - LAYOUT DAS PÁGINAS 
 ## ENTREGA DA SEGUNDA SPRINT 24/10 - HTML DAS PÁGINAS
 ## ENTREGA DA TERCEIRA SPRINT 26/11 - CSS
+## ENTREGA DA QUARTA SPRINT 17/12 - JAVASCRIPT
 
 ---
 
@@ -25,14 +26,11 @@ Poderá ter uma página para realização de desafios de leituras.
 | 🌐 Escolher um tema (e-commerce, blogs, site de negócios) |✔️|
 | 🛠️ Desenvolver um site sobre o tema, com minimo 05 telas |✔️|
 | 🛠️ Desenvolver o layout de cada tela|✔️|
-| 🛠️ Desenvolver o HTML de cada tela||
-| 🛠️ Desenvolver o CSS de cada tela||
+| 🛠️ Desenvolver o HTML de cada tela|✔️|
+| 🛠️ Desenvolver o CSS de cada tela|✔️|
+| 🛠️ Desenvolver o javascript de cada tela|✔️|
 
 
-
----
-
-### 🛠 Requisitos
 
 --- 
 
