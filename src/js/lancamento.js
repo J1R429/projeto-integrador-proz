@@ -41,5 +41,5 @@ function prevItem() {
 
 
 // Para automatizar o carrossel, você pode adicionar um intervalo
-setInterval(nextItem, 10000); // Muda de item a cada 3 segundos
+setInterval(nextItem, 20000); // Muda de item a cada 3 segundos
 
