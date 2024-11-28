@@ -22,3 +22,17 @@
     font-style: italic; 
     text-decoration: underline;
 }
+
+
+.youtube {
+    width: 420px;
+    height: 315px;
+}
+  
+  
+  
+@media screen and (max-width: 700px) {
+    .youtube {
+        width: 300px;
+    }
+}
