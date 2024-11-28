@@ -224,3 +224,31 @@ main ul li:nth-child(6) a {
 .plus-roxo {
   background-image: url("../../itens_utilizados/icones/mais_roxo.png");
 }
+
+
+@media screen and (max-width: 700px) {
+  .plus-icon {
+    width: 100%;                     /* Organiza tudo em coluna em telas menores */
+    background-position: right;
+  }
+
+  main ul li {
+    flex-direction: column;
+  }
+
+  main ul li a {
+    font-size: 0.8em !important;
+  }
+
+  main ul li:nth-child(2), main ul li:nth-child(3) {
+    height: 190px;
+  }
+
+  main ul li:nth-child(6), main ul li:nth-child(7) {
+    height: 190px;
+  }
+
+  main ul li:nth-child(5), main ul li:nth-child(8) {
+    height: 250px;
+  }
+}
