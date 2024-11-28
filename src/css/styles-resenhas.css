@@ -1,35 +1,114 @@
-.title_resenha {
+#titulo-pagina {
     text-align: center;
-    
-}    
-
-.title_titulo {
-    text-align: center;
+    color: #ef6602;
+    text-decoration: underline;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
-.foto_resenha {
-    width: 350px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    border-radius: 80px;
-}
-    
-.box_foto_resenha{ 
+.carousel-container {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Definir altura do carrossel */
+    margin: 0 auto;
+    overflow: hidden;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
-.description {
-    text-align: center;
-} 
-
-.author{
-    text-align: center;
-    text-decoration: underline;
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 400%; /* Ajuste a largura para os itens */
 }
 
-.box_button {
-    text-align: center;
+.carousel-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    min-width: 100%; /* Garantir que só um item seja visível por vez */
 }
 
+.carousel-content {
+    display: flex;
+    justify-content: space-between; /* Alinha a imagem e o texto */
+    width: 100%;
+}
+
+.carousel-images {
+    position: relative;
+    flex: 1;
+    max-width: 50%;
+}
+
+.carousel-images .main-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-images .small-image img{
+    width: 16.67%;
+    height: auto;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 2px solid #fff;
+}
+
+.carousel-text {
+    flex: 1;
+    padding: 20px;
+    max-width: 50%;
+    text-align: left;
+}
+
+.carousel-text h3 {
+    font-size: 1.8em;
+    color: #ef6602;
+    margin-bottom: 10px;
+}
+
+.carousel-text p {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.carousel-text .box_button {
+    margin-top: 20px;
+}
+
+/* Setas de navegação */
+.carousel-arrow {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 20;
+    /* Garante que as setas fiquem por cima */
+}
+
+.carousel-arrow-left {
+    left: 10px; /* Coloca a seta à esquerda */
+}
+
+.carousel-arrow-right {
+    right: 10px; /* Coloca a seta à direita */
+}
+
+/* Estilo para as imagens das setas */
+.carousel-arrow img {
+    width: 100px; /* Ajuste o tamanho das setas */
+    height: 100px;
+    object-fit: contain;
+}

@@ -12,103 +12,146 @@
   <link rel="stylesheet" href="../css/styles-geral.css">
   <link rel="stylesheet" href="../css/styles-resenhas.css">
 
-  <script src="../js/loadFooter.js" defer></script>
-  <script src="../js/loadHeader.js" defer></script>
+  
 </head>
 
 <body>
   <header id="header"></header>
 
   <main>
-    <article>
-      <h3 class="title_resenha">RESENHA DO LIVRO <BR> "A BIBLIOTECA DA MEIA-NOITE"</h3>
+    <h1 id="titulo-pagina">RESENHAS</h1>
 
-      <div class="box_foto_resenha">
-        <img class="foto_resenha" src="../../itens_utilizados/images/jornalistas/jornalista-4.png" alt="foto jornalista">
-        <img class="foto_resenha" src="../../itens_utilizados/images/livros-resenhas/livro-biblioteca.jpg" alt="foto livro">
-      </div>
+    <div class="carousel-container">
+      <!-- Botões de Navegação -->
+      <button class="carousel-arrow carousel-arrow-left" onclick="prevItem()">
+        <img src="../../itens_utilizados/images/images-paginas/seta-esquerda.png" alt="Seta Esquerda">
+      </button>
+
+      <button class="carousel-arrow carousel-arrow-right" onclick="nextItem()">
+        <img src="../../itens_utilizados/images/images-paginas/seta-direita.png" alt="Seta Direita">
+      </button>
       
-      <h1 class="title_titulo"><span class="highlight">A Biblioteca da Meia-Noite</span> – Uma Jornada entre Vidas Possíveis</h1>
-      <p class="author">Por Mei Lin, jornalista cultural</p>
+      <div class="carousel">
+        <div class="carousel-item">
+          <div class="carousel-content">
+            <div class="carousel-images">
+              <div class="main-image">
+                <img src="../../itens_utilizados/images/jornalistas/jornalista-4.png" alt="foto jornalista">
+              </div>
+              <div class="small-image">
+                <img src="../../itens_utilizados/images/livros-resenhas/livro-biblioteca.jpg" alt="foto livro">
+              </div>
+            </div>
 
-      <p class="description">Em <strong>"A Biblioteca da Meia-Noite"</strong>, Matt Haig nos convida a refletir sobre os "e se" da vida em
-        uma história que mistura fantasia e filosofia de forma comovente. A obra acompanha Nora Seed, uma mulher
-        deprimida e sem perspectiva, que se encontra entre a vida e a morte, dentro de uma biblioteca mágica onde cada
-        livro representa uma vida alternativa. A partir dessa premissa, Haig tece uma narrativa que explora escolhas,
-        arrependimentos e a complexidade do que significa realmente viver.</p>
+            <div class="carousel-text">
+              <h3>RESENHA DO LIVRO <BR> "A BIBLIOTECA DA MEIA-NOITE"</h3>
+              <p class="author">Por Mei Lin, jornalista cultural</p>
 
-    <div class="box_button">  
-      <button class="read-more" onclick="openModal('modal1')">Leia na Integra</button>
-    </div>
+              <p class="description">Em <strong>"A Biblioteca da Meia-Noite"</strong>, Matt Haig nos convida a refletir sobre os "e se" da vida em
+                uma história que mistura fantasia e filosofia de forma comovente. A obra acompanha Nora Seed, uma mulher
+                deprimida e sem perspectiva, que se encontra entre a vida e a morte, dentro de uma biblioteca mágica onde cada
+                livro representa uma vida alternativa. A partir dessa premissa, Haig tece uma narrativa que explora escolhas,
+                arrependimentos e a complexidade do que significa realmente viver.</p>
 
-    </article>
-
-    <article>
-      <h3 class="title_resenha">RESENHA DO LIVRO <BR> "CAFÉ COM DEUS PAI"</h3>
-
-    <div class="box_foto_resenha">
-      <img class="foto_resenha" src="../../itens_utilizados/images/jornalistas/jornalista-2.png" alt="foto jornalista">
-      <img class="foto_resenha" src="../../itens_utilizados/images/livros-resenhas/livro-cafe.jpg" alt="foto livro">
-    </div>
-
-      <h1 class="title_titulo"><span class="highlight">Café com Deus Pai</span> – Uma Conversa Intimista sobre Fé</h1>
-      <p class="author">Por André Souza, jornalista cultural</p>
-
-      <p class="description"><strong>"Café com Deus Pai"</strong>, escrito por Luciano Subirá, é um desses livros que, de cara, te faz
-        refletir sobre a simplicidade e a profundidade de ter um relacionamento com Deus. Como um <strong>homem negro de
-          30 anos</strong>, cresci dentro da fé cristã, mas, como muitos da minha geração, me afastei um pouco da
-        prática religiosa ao longo dos anos. Acredito, mas não tenho sido o cara mais presente nos cultos. No entanto,
-        esse livro me trouxe algo que eu não sabia que precisava: uma <span class="highlight">reconexão mais consciente
-          com a fé</span>.</p>
-
-    <div class="box_button">
-      <button class="read-more" onclick="openModal('modal2')">Leia na Integra</button>
-    </div>
-
-    </article>
-
-    <article>
-      <h3 class="title_resenha">RESENHA DO LIVRO <BR> "A PSICOLOGIA FINANCEIRA"</h3>
-
-    <div class="box_foto_resenha">
-      <img class="foto_resenha" src="../../itens_utilizados/images/jornalistas/jornalista-1.png" alt="foto jornalista">
-      <img class="foto_resenha" src="../../itens_utilizados/images/livros-resenhas/livro-psicologia.jpg" alt="foto livro">
-    </div>  
-
-
-      <h1 class="title_titulo"><span class="highlight">A Psicologia Financeira</span> – Lições Duradouras para o Sucesso Pessoal e Familiar</h1>
-      <p class="author">Por João Oliveira, jornalista e pai de família</p>
-
-      <p class="description">Como alguém que já passou por diferentes fases da vida — desde a juventude até a construção de uma família —
-        tenho observado que gerir as finanças é um dos desafios mais constantes. Li vários livros sobre dinheiro ao
-        longo dos anos, mas <strong>"A Psicologia Financeira"</strong>, de Morgan Housel, se destaca de uma maneira
-        diferente. O livro não ensina fórmulas mágicas para ficar rico, mas explora algo que considero ainda mais
-        valioso: o <span class="highlight">comportamento humano</span> em relação ao dinheiro.</p>
-
-    <div class="box_button">
-      <button class="read-more" onclick="openModal('modal3')">Leia na Integra</button>
-    </div>
+              <div class="box_button">  
+                <button class="read-more" onclick="openModal('modal1')">Leia na Integra</button>
+              </div>
+            </div>
+          </div>
+        </div>
     
-  </article>
+        <div class="carousel-item">
+          <div class="carousel-content">    
+            <div class="carousel-images">
+              <div class="main-image">
+                <img src="../../itens_utilizados/images/jornalistas/jornalista-2.png" alt="foto jornalista">
+              </div>
+              <div class="small-image">
+                <img src="../../itens_utilizados/images/livros-resenhas/livro-cafe.jpg" alt="foto livro">
+              </div>
+            </div>
 
-    <article>
-      <h3 class="title_resenha">RESENHA DO LIVRO <BR> "TUDO É RIO"</h3>
+            <div class="carousel-text">  
+            <h3>RESENHA DO LIVRO <BR> "CAFÉ COM DEUS PAI"</h3>
+            <p class="author">Por André Souza, jornalista cultural</p>
 
-    <div class="box_foto_resenha">   
-      <img class="foto_resenha" src="../../itens_utilizados/images/jornalistas/jornalista-3.png" alt="foto jornalista">
-      <img class="foto_resenha" src="../../itens_utilizados/images/livros-resenhas/livro-tudo.jpg" alt="foto livro">
-    </div> 
+            <p class="description"><strong>"Café com Deus Pai"</strong>, escrito por Luciano Subirá, é um desses livros que, de cara, te faz
+              refletir sobre a simplicidade e a profundidade de ter um relacionamento com Deus. Como um <strong>homem negro de
+                30 anos</strong>, cresci dentro da fé cristã, mas, como muitos da minha geração, me afastei um pouco da
+              prática religiosa ao longo dos anos. Acredito, mas não tenho sido o cara mais presente nos cultos. No entanto,
+              esse livro me trouxe algo que eu não sabia que precisava: uma <span class="highlight">reconexão mais consciente
+                com a fé</span>.</p>
 
-      <h1 class="title_titulo"><span class="highlight">Tudo É Rio</span> – A Profundidade das Águas e dos Sentimentos</h1>
-      <p class="author">Por Ana Paula Silva, jornalista e amante da literatura</p>
+              <div class="box_button">
+                <button class="read-more" onclick="openModal('modal2')">Leia na Integra</button>
+              </div>
+            </div>
+          </div>
+        </div>    
+    
 
-      <p class="description">Como jornalista e amante da literatura, sempre encontrei refúgio nas páginas dos livros. <strong>"Tudo É
-          Rio"</strong>, de Carla Madeira, chegou até mim como uma recomendação sutil, quase como um sussurro que ecoava
-        a promessa de uma jornada emocional.</p>
-    <div class="box_button">
-      <button class="read-more" onclick="openModal('modal4')">Leia na Integra</button>
+        <div class="carousel-item">
+          <div class="carousel-content">  
+            <div class="carousel-images">
+              <div class="main-image">
+                <img src="../../itens_utilizados/images/jornalistas/jornalista-1.png" alt="foto jornalista">
+              </div>
+              <div class="small-image">
+                <img src="../../itens_utilizados/images/livros-resenhas/livro-psicologia.jpg" alt="foto livro">
+              </div>
+            </div>
+
+            <div class="carousel-text">
+              <h3>RESENHA DO LIVRO <BR> "A PSICOLOGIA FINANCEIRA"</h3>
+              <p class="author">Por João Oliveira, jornalista e pai de família</p>
+
+              <p class="description">Como alguém que já passou por diferentes fases da vida — desde a juventude até a construção de uma família —
+                tenho observado que gerir as finanças é um dos desafios mais constantes. Li vários livros sobre dinheiro ao
+                longo dos anos, mas <strong>"A Psicologia Financeira"</strong>, de Morgan Housel, se destaca de uma maneira
+                diferente. O livro não ensina fórmulas mágicas para ficar rico, mas explora algo que considero ainda mais
+                valioso: o <span class="highlight">comportamento humano</span> em relação ao dinheiro.</p>
+
+                <div class="box_button">
+                  <button class="read-more" onclick="openModal('modal3')">Leia na Integra</button>
+                </div>
+              </div>
+            </div>
+          </div>  
+  
+          <div class="carousel-item">
+            <div class="carousel-content">
+              <div class="carousel-images">
+              <div class="main-image">
+                <img src="../../itens_utilizados/images/jornalistas/jornalista-3.png" alt="foto jornalista">
+              </div>
+              <div class="small-image">
+                <img src="../../itens_utilizados/images/livros-resenhas/livro-tudo.jpg" alt="foto livro">
+              </div>
+            </div>
+
+              <div class="carousel-text">
+                <h3>RESENHA DO LIVRO <BR> "TUDO É RIO"</h3>
+                <p class="author">Por Ana Paula Silva, jornalista e amante da literatura</p>
+
+                <p class="description">Como jornalista e amante da literatura, sempre encontrei refúgio nas páginas dos livros. <strong>"Tudo É
+                    Rio"</strong>, de Carla Madeira, chegou até mim como uma recomendação sutil, quase como um sussurro que ecoava
+                  a promessa de uma jornada emocional.</p>
+
+                    <div class="box_button">
+                      <button class="read-more" onclick="openModal('modal4')">Leia na Integra</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+              
+      </div>
     </div>
-    </article>
+
+
+
+
+
 
     <div id="modal1" class="modal" style="display: none;">
       <div class="modal-content">
@@ -300,6 +343,10 @@
         <h5><a href:"" target="_blank">Link de compra na Amazon:</a></h5>
       </div>
     </div>
+
+  <script src="../js/loadFooter.js" defer></script>
+  <script src="../js/loadHeader.js" defer></script>
+  <script src="../js/resenhas.js" defer></script>
   </main>
 
   <footer id="footer"></footer>
