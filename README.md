@@ -31,7 +31,7 @@ Poderá ter uma página para realização de desafios de leituras.
 | 🛠️ Desenvolver o HTML de cada tela|✔️|
 | 🛠️ Desenvolver o CSS de cada tela|✔️|
 | 🛠️ Desenvolver o javascript de cada tela|✔️|
-| 🛠️ ENTREGA FINAL DO PROJETO||
+| 🛠️ Entrega Final do Projeto||
 
 
 
