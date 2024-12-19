@@ -16,7 +16,7 @@ Poderá ter uma página para realização de desafios de leituras.
 ## ENTREGA DA SEGUNDA SPRINT 24/10 - HTML DAS PÁGINAS
 ## ENTREGA DA TERCEIRA SPRINT 26/11 - CSS
 ## ENTREGA DA QUARTA SPRINT 17/12 - JAVASCRIPT
-## ENTREGA DA QUINTA 15/01 - DICAS DA APRESENTAÇÃO
+## ENTREGA DA QUINTA SPRINT 15/01 - DICAS DA APRESENTAÇÃO
 ## ENTREGA FINAL 17/01 - APRESENTAÇÃO FINAL
 
 ---
@@ -31,6 +31,8 @@ Poderá ter uma página para realização de desafios de leituras.
 | 🛠️ Desenvolver o HTML de cada tela|✔️|
 | 🛠️ Desenvolver o CSS de cada tela|✔️|
 | 🛠️ Desenvolver o javascript de cada tela|✔️|
+| 🛠️ ENTREGA FINAL DO PROJETO||
+
 
 
 
