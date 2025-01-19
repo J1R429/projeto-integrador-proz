@@ -4,16 +4,6 @@
     text-decoration: underline;
 }
 
-.section_center {
-    text-align: center;
-    background-color: #F08080;
-    padding: 50px;
-    border-radius: 100px;
-    margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-}
-
 .ul_ol_list_center {
     width: fit-content;
     margin: auto;
@@ -28,6 +18,19 @@
 .youtube {
     width: 420px;
     height: 315px;
+}
+
+
+/*-- Carousel --*/
+
+.section_center {
+    text-align: center;
+    background-color: #F08080;
+    padding: 50px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .content_text {
