@@ -62,19 +62,19 @@ button {
     padding: 10px;
     cursor: pointer;
     z-index: 100;
-  }
-  
-  button.prev {
+}
+
+button.prev {
     left: 10px;
-  }
-  
-  button.next {
+}
+
+button.next {
     right: 10px;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: rgba(0, 0, 0, 0.8);
-  }
+}
   
   
   
