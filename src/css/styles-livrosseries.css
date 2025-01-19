@@ -52,6 +52,9 @@
     min-width: 100%;
 }
 
+
+/*-- Button Carousel --*/
+
 button {
     position: absolute;
     top: 50%;
@@ -75,8 +78,7 @@ button.next {
 button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
-  
-  
+
   
 @media screen and (max-width: 700px) {
     .youtube {
