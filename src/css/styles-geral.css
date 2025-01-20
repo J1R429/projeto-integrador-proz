@@ -15,6 +15,7 @@ body {
     box-sizing: border-box;
     /* Inclui a borda e o padding no cálculo da largura/altura */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Fonte da página */
 }
 
 /* Ajustes para o conteúdo da página */
