@@ -1,25 +1,20 @@
 #imagem-mapa-container {
     width: 80%;  
     margin: 0 auto;  /* Centraliza o container na página */
-    padding-left: 0;
-    margin-left: 0;
+    padding: 0;      /* Remove padding se houver */
+    display: flex;   /* Flexbox para centralização */
+    justify-content: center;  /* Centraliza horizontalmente */
 }
 
 /* Imagem dentro do container */
 #imagem-mapa {
     width: 100%;
-    position: absolute;  /* Faz a imagem ficar em relação ao container */
-    left: 0;              /* Alinha a imagem na margem esquerda do container */
-    top: 50%;             /* Centraliza verticalmente, ajustável conforme a altura */
-    transform: translateY(-50%);  /* Corrige qualquer deslocamento vertical */
-    display: block;
-    margin-left: 0;
-    
-    
-height: auto;  /* Mantém a proporção da imagem */
+    height: auto;  /* Mantém a proporção da imagem */
     display: block;  /* Garante que a imagem seja um bloco */
-    margin-left: auto;  /* Alinha a imagem no centro */
-    margin-right: auto;  /* Alinha a imagem no centro */
+    margin-left: auto;  /* Centraliza horizontalmente */
+    margin-right: auto;  /* Centraliza horizontalmente */
+    top: 50%;  /* Ajuste vertical */
+    transform: translateY(-50%);  /* Centraliza verticalmente */
 }
 
 

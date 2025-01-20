@@ -18,3 +18,4 @@ function updateCarousel() {
     const itemWidth = document.querySelector('.carousel-item').offsetWidth; // Largura do item
     carousel.style.transform = `translateX(-${currentIndex * itemWidth}px)`; // Movimenta o carrossel para o item atual
 }
+

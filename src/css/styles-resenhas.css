@@ -117,6 +117,23 @@
     object-fit: contain;
 }
 
+.read-more {
+    background-color: #007bff; /* Azul vibrante */
+    color: #fff; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.read-more:hover {
+    background-color: #0056b3; /* Azul mais escuro */
+    transform: scale(1.05); /* Pequeno efeito de zoom */
+}
+
 
 @media screen and (min-width: 900px) and (max-width: 1010px) {
     .carousel-images .main-image img {

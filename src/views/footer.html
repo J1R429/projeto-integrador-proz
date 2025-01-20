@@ -6,7 +6,6 @@
 
   .footer-custom img {
     float: left;
-    width: 20%;
     height: auto;
     margin-right: 20px;
     margin-top: 0px;
@@ -34,9 +33,11 @@
   }
 
   .footer-custom h3 {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    width: 100%;         /* Garante que ocupe toda a largura disponível */
+    text-align: center;  /* Centraliza o texto */
+    clear: both;         /* Garante que o h3 seja movido para uma nova linha */
+    margin-top: 20px;    /* Distância superior */
+    margin-bottom: 20px; /* Distância inferior */
     padding: 0;
   }
 
@@ -51,7 +52,7 @@
 <footer class="footer-custom">
   <hr>
   <a href="index.html">
-    <img src="../../itens_utilizados/images/images-paginas/logo.png" alt="logo">
+    <img src="../../itens_utilizados/images/images-paginas/logo.png" alt="logo" width="150" height="100">
   </a>
 
   <div class="mapa-site">
@@ -60,21 +61,19 @@
 
       <ul>
         <li><a href="index.html">Início</a></li>
-        <li><a href="login.html">Login/Cadastro</a></li>
         <li><a href="resenhas.html">Resenhas</a></li>
+        <li><a href="livrosSeries.html">Livros que viraram séries</a></li>
       </ul>
     </div>
 
     <div>
       <ul>
-        <li><a href="livrosSeries.html">Livros que viraram séries</a></li>
+        
         <li><a href="lancamentos.html">Lançamentos</a></li>
         <li><a href="desafio.html">Desafios</a></li>
         <li><a href="linksUteis.html">Links úteis</a></li>
       </ul>
-    </div>
-      <a href="../admin/admin.html">admin</a>
-  </div>
-
+    
+      
   <h3>  ©Copyright - Desenvolvido pelo Grupo-5 | Turma 35 | Proz</h3>
 </footer>
