@@ -1,23 +1,32 @@
 
 
-![Banner](./src/images/)
-
-## PROJETO INTEGRADOR - PROZ - TURMA 35 - GRUPO 05 
-### Desenvolvimento de um site com no minímo 05 pagínas 
-O tema escolhido é um blog de resenhas e opiniões sobre livros em geral.
-Ao final de cada texto haverá um link para compra do livro na Amazon e espaço para comentários.
-Poderá ter uma pagina para venda de produtos relacionados aos livros, como itens colecionavéis e filmes.
-Poderá ter uma página para realização de desafios de leituras.
+![Banner](./itens_utilizados/images/banner.webp)
 
 
-## NOME DO BLOG - BOOK SINCERO
+# **Book Sincero**
 
-## ENTREGA DA PRIMEIRA SPRINT 17/10 - LAYOUT DAS PÁGINAS 
-## ENTREGA DA SEGUNDA SPRINT 24/10 - HTML DAS PÁGINAS
-## ENTREGA DA TERCEIRA SPRINT 26/11 - CSS
-## ENTREGA DA QUARTA SPRINT 17/12 - JAVASCRIPT
-## ENTREGA DA QUINTA SPRINT 14/01 - DICAS DA APRESENTAÇÃO
-## ENTREGA FINAL 21/01 - APRESENTAÇÃO FINAL
+
+
+## PROJETO INTEGRADOR - PROZ - TURMA 35 - GRUPO 05 📚
+
+
+### Desenvolvimento de um blog literário com no mínimo 5 páginas interativas. 
+- O tema escolhido é um blog de resenhas e opiniões sobre livros em geral.
+- Ao final de cada texto haverá um link para compra do livro na Amazon e espaço para comentários.
+- Poderá ter uma pagina para venda de produtos relacionados aos livros, como itens colecionavéis e filmes.
+- Poderá ter uma página para realização de desafios de leituras.
+
+
+## **Cronograma de Entregas**  
+
+| **Sprint**                | **Data de Entrega** | **Descrição**                               |
+|---------------------------|---------------------|---------------------------------------------|
+| 1️⃣ **Primeira Sprint**   | 17/10              | Definição do layout das páginas.            |
+| 2️⃣ **Segunda Sprint**    | 24/10              | Desenvolvimento do HTML das páginas.        |
+| 3️⃣ **Terceira Sprint**   | 26/11              | Estilização das páginas com CSS.            |
+| 4️⃣ **Quarta Sprint**     | 17/12              | Funcionalidades interativas com JavaScript. |
+| 5️⃣ **Quinta Sprint**     | 14/01              | Dicas para apresentação.                    |
+| 🔥 **Entrega Final**      | 21/01              | Apresentação final do projeto.              |
 
 ---
 
@@ -34,12 +43,19 @@ Poderá ter uma página para realização de desafios de leituras.
 | 🛠️ Entrega Final do Projeto||
 
 
-
-
 --- 
 
 ### 📦 Funcionalidades
+- Páginas dinâmicas e responsivas.  
+- Carrosséis interativos para resenhas e lançamentos.  
+- Modais para exibição de resenhas completas.  
+- Links úteis para desafios, Amazon e recursos literários.  
+- Integração com PDF e links externos.  
 
+---
+
+
+### 🛠️ Tecnologias Utilizadas
 ![HTML Badge](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
 
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -48,15 +64,6 @@ Poderá ter uma página para realização de desafios de leituras.
 
 
 ![DISCORD Badge](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)
-
----
-
-### Como Utilizar 
-
----
-
-### 🔍 Dificuldades Encontradas
-
 
 ---
 
@@ -76,29 +83,7 @@ Poderá ter uma página para realização de desafios de leituras.
 
 <br><br>
 
-<a href="https://avatars.githubusercontent.com/u/155182122?v=4">
-   <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/155182122?v=4" width="100px;" alt=""/>
-   <br />
-   <sub><b style="color: yellow;">Fabrício</b></sub>
-</a>
 
-<br><br>
-
-<a href="https://avatars.githubusercontent.com/u/110235309?v=4">
-   <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/110235309?v=4" width="100px;" alt=""/>
-   <br />
-   <sub><b style="color: yellow;">Sueli</b></sub>
-</a>
-
-<br><br>
-
-<a href="https://avatars.githubusercontent.com/u/142187378?v=4">
-   <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/142187378?v=4" width="100px;" alt=""/>
-   <br />
-   <sub><b style="color: yellow;">Pollyana</b></sub>
-</a>
-
-<br><br>
 
 <a href="https://github.com/priscilaregsilva">
    <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/111193327?v=4" width="100px;" alt=""/>
